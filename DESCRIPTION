@@ -4,6 +4,8 @@ Version: 0.0.0.9100
 Date: 22 December 2015
 Authors@R: person("Frederick", "Boehm", email = "frederick.boehm@gmail.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph)
-Depends: R (>= 3.2.1)
+Depends:
+    R (>= 3.2.1)
 License: MIT License
 LazyData: true
+RoxygenNote: 5.0.1

@@ -2,5 +2,6 @@
 title: "IMS Manuscript"
 author: "Frederick Boehm"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
+journal: "aoas"
 output: pdf_document
 ---

@@ -16,4 +16,3 @@ This function calculates expit of the input.
 expit(5)
 }
 \keyword{logistic}
-

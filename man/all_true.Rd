@@ -15,4 +15,3 @@ TRUE or FALSE
 \description{
 Are all entries of a vector TRUE?
 }
-

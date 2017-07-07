@@ -1,10 +1,10 @@
 #' Plays a musical mp3 as an alarm.
 #'
-#' @param file
-#' @param time
+#' @param file filename (with path) to an audio file. Seems to require no spaces in path and filename.
+#' @param time duration of play time, in seconds
 #'
 #' @export
 #'
-mp3alarm <- function(file = "/Users/fjboehm/Music/iTunes/sjb.m4a", time=5){
-    system(paste("afplay -t ", time, " ", file))
+mp3alarm <- function(file = "~/Music/music/us.mp3", time=15){
+    system2(command = "afplay", args = paste("-t", time, file))
 }

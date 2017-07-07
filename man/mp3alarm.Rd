@@ -4,12 +4,13 @@
 \alias{mp3alarm}
 \title{Plays a musical mp3 as an alarm.}
 \usage{
-mp3alarm(file = "/Users/fjboehm/Music/iTunes/sjb.m4a", time = 5)
+mp3alarm(file = "~/Music/music/us.mp3", time = 15)
 }
 \arguments{
-\item{time}{}
+\item{file}{filename (with path) to an audio file. Seems to require no spaces in path and filename.}
+
+\item{time}{duration of play time, in seconds}
 }
 \description{
 Plays a musical mp3 as an alarm.
 }
-

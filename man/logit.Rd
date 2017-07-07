@@ -16,4 +16,3 @@ This function calculates logit of an inputted probability.
 logit(0.3)
 }
 \keyword{logistic}
-

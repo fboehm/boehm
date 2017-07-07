@@ -5,6 +5,6 @@
 #'
 #' @export
 #'
-mp3alarm <- function(file = "~/Music/music/us.mp3", time=15){
+mp3alarm <- function(file = "~/Music/music/us.mp3", time = 15){
     system2(command = "afplay", args = paste("-t", time, file))
 }

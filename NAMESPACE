@@ -3,5 +3,7 @@
 export(all_true)
 export(expit)
 export(ims_manuscript)
+export(inline_datetime)
 export(logit)
 export(mp3alarm)
+importFrom(htmltools,htmlDependency)
